@@ -1,4 +1,4 @@
-name: CSIT-1-Node-Test
+  name: CSIT-1-Node-Test
   
   on:
     push:
@@ -28,6 +28,7 @@ name: CSIT-1-Node-Test
         - name: Run Test
           uses: ayushishu/releng-docker/.github/action/composite-csit-1-node@ayush
           with: 
-            project_name: distribution
+            project_name: aaa
             DOCKER_REPOSITORY: ayushishu
             ROBOT_IMAGE: robot-base-image
+            
